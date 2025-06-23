@@ -11,6 +11,7 @@ namespace МорскойБой
         public Game()
         {
             InitializeComponent();
+            UpdateShipPlacementOrder();
         }
         public static bool najat = false;
 		public static bool gotov = false;
@@ -92,7 +93,6 @@ namespace МорскойБой
         {
             if (!najat)
             {
-                int got = 0;
                 if (e.Button == MouseButtons.Right)
                 {
                     objBattle.ChangeVerctical();
@@ -118,31 +118,10 @@ namespace МорскойБой
                         else if (radioButton2.Checked) objBattle.Count2X++;
                         else if (radioButton3.Checked) objBattle.Count3X++;
                         else objBattle.Count4X++;
-                        if (objBattle.Count1X > 3)
-                        {
-                            radioButton1.Enabled = false;
-                            got++;
-                        }
-                        if (objBattle.Count2X > 2)
-                        {
-                            radioButton2.Enabled = false;
-                            got++;
-                        }
-                        if (objBattle.Count3X > 1)
-                        {
-                            radioButton3.Enabled = false;
-                            got++;
-                        }
-                        if (objBattle.Count4X > 0)
-                        {
-                            radioButton4.Enabled = false;
-                            got++;
-                        }
-                        objBattle.FindNextRb(radioButton1, radioButton2, radioButton3, radioButton4);
+                        UpdateShipPlacementOrder();
                     }
                     panel1.Invalidate();
                 }
-                if (got == 4) gotov = true;
             }
         }
 
@@ -155,11 +134,7 @@ namespace МорскойБой
         private void button2_Click(object sender, EventArgs e)
         {
             objBattle.Reset();
-            radioButton1.Enabled = true;
-            radioButton1.Checked = true;
-            radioButton2.Enabled = true;
-            radioButton3.Enabled = true;
-            radioButton4.Enabled = true;
+            UpdateShipPlacementOrder();
             panel1.Invalidate();
             labelScore.Text = "Очки: 0";
         }
@@ -338,11 +313,6 @@ namespace МорскойБой
         private void buttonRandom_Click(object sender, EventArgs e)
         {
             objBattle.Reset();
-            radioButton1.Enabled = true;
-            radioButton1.Checked = true;
-            radioButton2.Enabled = true;
-            radioButton3.Enabled = true;
-            radioButton4.Enabled = true;
             int y, x, count = 10, size = 3;
             Random r = new Random();
             while (count > 0)
@@ -365,6 +335,56 @@ namespace МорскойБой
                 }
             }
             panel1.Invalidate();
+            UpdateShipPlacementOrder();
+        }
+
+        private void UpdateShipPlacementOrder()
+        {
+            // 4x корабль
+            if (objBattle.Count4X < 1)
+            {
+                radioButton4.Enabled = true;
+                radioButton4.Checked = true;
+                radioButton3.Enabled = false;
+                radioButton2.Enabled = false;
+                radioButton1.Enabled = false;
+                return;
+            }
+            // 3x корабли
+            if (objBattle.Count3X < 2)
+            {
+                radioButton4.Enabled = false;
+                radioButton3.Enabled = true;
+                radioButton3.Checked = true;
+                radioButton2.Enabled = false;
+                radioButton1.Enabled = false;
+                return;
+            }
+            // 2x корабли
+            if (objBattle.Count2X < 3)
+            {
+                radioButton4.Enabled = false;
+                radioButton3.Enabled = false;
+                radioButton2.Enabled = true;
+                radioButton2.Checked = true;
+                radioButton1.Enabled = false;
+                return;
+            }
+            // 1x корабли
+            if (objBattle.Count1X < 4)
+            {
+                radioButton4.Enabled = false;
+                radioButton3.Enabled = false;
+                radioButton2.Enabled = false;
+                radioButton1.Enabled = true;
+                radioButton1.Checked = true;
+                return;
+            }
+            // Всё размещено
+            radioButton4.Enabled = false;
+            radioButton3.Enabled = false;
+            radioButton2.Enabled = false;
+            radioButton1.Enabled = false;
             gotov = true;
         }
 	}
