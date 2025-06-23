@@ -1,0 +1,60 @@
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe.config
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\bin\Debug\МорскойБой.pdb
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csprojResolveAssemblyReference.cache
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Game.resources
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Main.resources
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Properties.Resources.resources
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.GenerateResource.Cache
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.exe
+c:\users\fene4ka\documents\visual studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.pdb
+C:\Users\Fene4ka\Documents\Visual Studio 2013\Projects\МорскойБой\МорскойБой\obj\Debug\МорскойБой.VictroryGame.resources
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe.config
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\bin\Debug\МорскойБой.pdb
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csprojAssemblyReference.cache
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Game.resources
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Main.resources
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Properties.Resources.resources
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.VictroryGame.resources
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.GenerateResource.cache
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.exe
+C:\Users\Alex\Downloads\МорскойБой\МорскойБой\obj\Debug\МорскойБой.pdb
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe.config
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\bin\Debug\МорскойБой.pdb
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.AssemblyReference.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Game.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Main.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Properties.Resources.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.GenerateResource.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.CoreCompileInputs.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.exe
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.pdb
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\bin\Debug\МорскойБой.exe.config
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\bin\Debug\МорскойБой.exe
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\bin\Debug\МорскойБой.pdb
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.csproj.AssemblyReference.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.Game.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.Main.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.Properties.Resources.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.csproj.GenerateResource.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.csproj.CoreCompileInputs.cache
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.exe
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.pdb
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой — копия\МорскойБой\obj\Debug\МорскойБой.Victrory.resources
+C:\Users\ASUS ROG STRIX\Desktop\МРБ\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Victrory.resources
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.exe
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.pdb
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe.config
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\bin\Debug\МорскойБой.exe
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\bin\Debug\МорскойБой.pdb
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.AssemblyReference.cache
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.exe.config
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Game.resources
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Main.resources
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Properties.Resources.resources
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.Victrory.resources
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.GenerateResource.cache
+C:\Users\catdo\OneDrive\Рабочий стол\МорскойБой\МорскойБой\obj\Debug\МорскойБой.csproj.CoreCompileInputs.cache
