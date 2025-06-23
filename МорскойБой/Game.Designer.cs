@@ -40,6 +40,7 @@ namespace МорскойБой
 			this.buttonReady = new System.Windows.Forms.Button();
 			this.buttonReset = new System.Windows.Forms.Button();
 			this.labelScore = new System.Windows.Forms.Label();
+			this.buttonRandom = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -152,6 +153,16 @@ namespace МорскойБой
 			this.labelScore.ForeColor = System.Drawing.Color.Red;
 			this.labelScore.BackColor = System.Drawing.Color.Yellow;
 			// 
+			// buttonRandom
+			// 
+			this.buttonRandom.Location = new System.Drawing.Point(113, 388);
+			this.buttonRandom.Name = "buttonRandom";
+			this.buttonRandom.Size = new System.Drawing.Size(90, 45);
+			this.buttonRandom.TabIndex = 9;
+			this.buttonRandom.Text = "Случайная расстановка";
+			this.buttonRandom.UseVisualStyleBackColor = true;
+			this.buttonRandom.Click += new System.EventHandler(this.buttonRandom_Click);
+			// 
 			// Game
 			// 
 			StartPosition = FormStartPosition.CenterScreen;
@@ -168,6 +179,7 @@ namespace МорскойБой
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.labelScore);
+			this.Controls.Add(this.buttonRandom);
 			this.Name = "Game";
 			this.Text = "Game";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Game_FormClosed);
@@ -188,5 +200,6 @@ namespace МорскойБой
         private System.Windows.Forms.Button buttonReady;
         private System.Windows.Forms.Button buttonReset;
         private System.Windows.Forms.Label labelScore;
+        private System.Windows.Forms.Button buttonRandom;
     }
 }

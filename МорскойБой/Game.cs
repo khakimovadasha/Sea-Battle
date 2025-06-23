@@ -334,5 +334,38 @@ namespace МорскойБой
             Hide();
             frmVictroryGame.Show();
         }
+
+        private void buttonRandom_Click(object sender, EventArgs e)
+        {
+            objBattle.Reset();
+            radioButton1.Enabled = true;
+            radioButton1.Checked = true;
+            radioButton2.Enabled = true;
+            radioButton3.Enabled = true;
+            radioButton4.Enabled = true;
+            int y, x, count = 10, size = 3;
+            Random r = new Random();
+            while (count > 0)
+            {
+                if (count < 10) size = 2;
+                if (count < 8) size = 1;
+                if (count < 5) size = 0;
+                y = r.Next(0, 10);
+                x = r.Next(0, 10);
+                if (r.Next(0, 2) == 1)
+                    objBattle.ChangeVerctical();
+                if (objBattle.CheckSq(x, y, size, objBattle.GetLink()))
+                {
+                    objBattle.CreateShip(x, y, 2, size, objBattle.GetLink());
+                    if (size == 0) objBattle.Count1X++;
+                    else if (size == 1) objBattle.Count2X++;
+                    else if (size == 2) objBattle.Count3X++;
+                    else objBattle.Count4X++;
+                    count--;
+                }
+            }
+            panel1.Invalidate();
+            gotov = true;
+        }
 	}
 }
